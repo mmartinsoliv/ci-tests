@@ -26,8 +26,8 @@ jobs:
     - name: Install Playwright browsers
       run: npx playwright install --with-deps
 
-    - name: Run Playwright tests
-      run: npx playwright test
+    - name: Run tests
+      run: npm test
 
     - name: Generate Allure Report
       uses: simple-elf/allure-report-action@master
