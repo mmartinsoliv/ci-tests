@@ -1,2 +1,12 @@
-node_modules
-.features-gen
+# Ignorar node_modules (dependências do Node.js)
+node_modules/
+
+# Ignorar o diretório de arquivos gerados do Playwright
+.features-gen/
+
+# Ignorar relatórios Allure
+allure-results/
+allure-report/
+
+# Ignorar relatórios do Playwright
+playwright-report/

@@ -63,5 +63,5 @@ jobs:
       if: failure()  # Somente em caso de falha
       run: |
         curl -X POST -H 'Content-type: application/json' \
-        --data '{"text":"⚠️ *Playwright Tests Failed!* CI pipeline failed in branch `'"${{ github.ref_name }}"'`. Please check the details: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"}' \
+        --data '{"text":"⚠️ *Playwright Tests Failed!* CI pipeline failed in branch `'"${{ github.ref_name }}"'`. Please check the Allure report at: https://mmartinsoliv.github.io/ci-tests/ or view details in GitHub Actions: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}"}' \
         ${{ secrets.SLACK_WEBHOOK_URL }}
