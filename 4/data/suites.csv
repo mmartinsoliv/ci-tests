@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Sep 22 19:12:22 GMT 2024","Sun Sep 22 19:12:23 GMT 2024","746","","sample.feature.spec.js","Playwright site","","","Check title",""
