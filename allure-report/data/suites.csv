@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1575","Check title","","Sun Sep 22 15:28:56 GMT-03:00 2024","passed","Sun Sep 22 15:28:58 GMT-03:00 2024","Playwright site","sample.feature.spec.js","",""
