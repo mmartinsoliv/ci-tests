@@ -1,5 +1,6 @@
 import { defineConfig } from '@playwright/test';
 import { defineBddConfig } from 'playwright-bdd';
+import { AllureReporter } from 'allure-playwright'
 
 const testDir = defineBddConfig({
   features: 'sample.feature',
@@ -8,5 +9,8 @@ const testDir = defineBddConfig({
 
 export default defineConfig({
   testDir,
-  reporter: [["line"], ["allure-playwright"]],
+  reporter: [["line"], ["allure-playwright", {
+    outputFolder: "allure-results",
+    
+  }]],
 });
