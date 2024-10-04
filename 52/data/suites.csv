@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Fri Oct 04 10:16:27 GMT 2024","Fri Oct 04 10:16:57 GMT 2024","30009","","sample.feature.spec.js","Playwright site","","","Check title",""
